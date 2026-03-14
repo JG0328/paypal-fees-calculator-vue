@@ -1,5 +1,7 @@
 # paypal-fees-calculator-vue
 
+![Tests](https://github.com/JG0328/paypal-fees-calculator-vue/actions/workflows/test.yml/badge.svg)
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
