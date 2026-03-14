@@ -26,17 +26,17 @@ const totalFees = computed(() => {
       </header>
       <hr class="border-zinc-700" />
       <main class="p-8 flex-1">
-        <div class="flex items-center justify-center gap-2 text-base">
+        <div class="flex items-center justify-center gap-2">
           <div class="flex items-center gap-1">
             <input v-model="feePercent" type="number" min="0" step="0.1"
-              class="w-20 bg-zinc-800 text-white text-center rounded-lg px-2 py-1.5 border border-zinc-700 focus:outline-none focus:border-zinc-500" />
-            <span class="text-zinc-400">%</span>
+              class="w-24 bg-zinc-800 text-white text-center rounded-lg px-2 py-1.5 border border-zinc-700 focus:outline-none focus:border-zinc-500 text-lg" />
+            <span class="text-zinc-400 text-lg">%</span>
           </div>
-          <span class="text-zinc-500">+</span>
+          <span class="text-zinc-500 text-lg">+</span>
           <div class="flex items-center gap-1">
-            <span class="text-zinc-400">$</span>
+            <span class="text-zinc-400 text-lg">$</span>
             <input v-model="feeFixed" type="number" min="0" step="0.01"
-              class="w-20 bg-zinc-800 text-white text-center rounded-lg px-2 py-1.5 border border-zinc-700 focus:outline-none focus:border-zinc-500" />
+              class="w-24 bg-zinc-800 text-white text-center rounded-lg px-2 py-1.5 border border-zinc-700 focus:outline-none focus:border-zinc-500 text-lg" />
           </div>
         </div>
 
